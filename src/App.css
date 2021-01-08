@@ -31,3 +31,9 @@ section {
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
 }
+
+@media (max-width: 378px) {
+  .contents {
+    grid-template-columns: 1fr;
+  }
+}
